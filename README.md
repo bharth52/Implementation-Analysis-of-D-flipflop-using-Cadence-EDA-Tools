@@ -1,4 +1,4 @@
-# Implementation-Analysis-of-D-flipflop-using-Cadence-EDA-Tools
+ # Implementation-Analysis-of-D-flipflop-using-Cadence-EDA-Tools
 Ex No: 01     Implementation & Analysis of D-flipflop using Cadence EDA Tools   
 
 Aim:
@@ -8,7 +8,14 @@ Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-Procedure  
+S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+
+1.	Right Click and open the terminal window
+2.	Type the following commands as follows and press enter.
+•	csh
+•	source /cadence/install/cshrc
+•	virtuoso 
+Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -40,8 +47,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![IMG-20241019-WA0012](https://github.com/user-attachments/assets/34ba817f-3261-4ea3-b4e2-6be450b2207d)
 
+![1](https://github.com/user-attachments/assets/b8a77e00-7efc-4b3e-8a0a-e698645534d9)
 
 
  
@@ -59,7 +66,7 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
-![IMG-20241019-WA0009](https://github.com/user-attachments/assets/9bef70c1-ffa3-4680-ac29-d4c5e03d792e)
+![2](https://github.com/user-attachments/assets/2c87b42a-4318-41be-8eab-fd1518a05718)
 
 
 iv)	Creating the new test cell view
@@ -72,7 +79,8 @@ iv)	Creating the new test cell view
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
 
-![IMG-20241019-WA0011](https://github.com/user-attachments/assets/a6e192b4-bc9d-44a0-9007-ab48f2f1acc4)
+![3](https://github.com/user-attachments/assets/af6e7c53-9f15-4901-a356-440b18200456)
+
 
 
  
@@ -87,14 +95,16 @@ Analog simulation by SPECTRE.
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
  
-![IMG-20241019-WA0010](https://github.com/user-attachments/assets/e532f49e-b60f-4629-bb39-9f9b4085b36f)
+
+![4](https://github.com/user-attachments/assets/33359749-0d71-45d1-88ef-a09899f5b11c)
 
 
 For Transient Analysis Settings and Output
- 
- ![IMG-20241019-WA0013](https://github.com/user-attachments/assets/92433262-d11d-460f-899b-5c3d1e661266)
 
- ![IMG-20241019-WA0014](https://github.com/user-attachments/assets/eef27219-4166-4c49-8662-ee7e0ddb6894)
+![5](https://github.com/user-attachments/assets/da09662d-e983-4e23-b0aa-9c3d30c26146)
+
+
+![9](https://github.com/user-attachments/assets/a937f703-39f8-4c86-8926-cec62c4ee170)
 
 
 Results:
